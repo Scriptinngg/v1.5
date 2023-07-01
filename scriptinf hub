@@ -1,4 +1,4 @@
- getgenv().SecureMode = true
+getgenv().SecureMode = true
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -392,3 +392,5 @@ local Button = Tab:CreateButton({
 })
 
 local Paragraph = Tab:CreateParagraph({Title = "Key", Content = "lunarhubnicebye is the key"})
+
+Rayfield:LoadConfiguration()
